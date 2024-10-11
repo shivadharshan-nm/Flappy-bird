@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.background{
+    height: 100vh;
+    width: 100vw;
+    background: url(images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    -o-background-size:cover ;
+}
+
+.bird{
+    height: 200px;
+    width: 230px;
+    position: fixed;
+    top: 40vh;
+    left: 15vw;
+    z-index: 100;
+}
+
+.message{
+    position: absolute;
+    z-index: 100;
+    color: brown;
+    top: 40vh;
+    left: 50vw;
+    font-size: 5em;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.msgstyle{
+    background: tan;
+    padding: 50px;
+    box-shadow: rosybrown(0, 0, 0, 0.25)0px 3px 8px;
+    border-radius: 25%;
+}
+
+.score{
+    position: fixed;
+    height: 10vh;
+    font-size: 5em;
+    font-weight: 300;
+    color: yellow;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: yellow;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pipe{
+    position: fixed;
+    top: 40vh;
+    left: 100vw;
+    height: 70vh;
+    width: 6vw;
+    background: radial-gradient(#5BFF33 50%, green);
+    border: 5px solid black;
+}
